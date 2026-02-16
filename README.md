@@ -14,20 +14,7 @@ Crafted with premium UI/UX, smooth animations, and dynamic content management.
 
 </div>
 
----
 
-## 📸 Project Preview
-
-### 🏠 Home Page
-![Home Screenshot](public/screenshots/home.png)
-
-### 🛍️ Shop Page
-![Shop Screenshot](public/screenshots/shop.png)
-
-### 🛒 Cart Page
-![Cart Screenshot](public/screenshots/cart.png)
-
----
 
 ## ✨ Core Features
 
