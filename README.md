@@ -2,23 +2,21 @@
 
 # 🚀 Future Vision – MyStore
 
-A modern, high-performance E-commerce platform built with Laravel & Tailwind CSS.  
-Designed with premium UI/UX, smooth animations, and dynamic content management.
+A modern, high-performance E-commerce platform built with Laravel 12 & Tailwind CSS.  
+Crafted with premium UI/UX, smooth animations, and dynamic content management.
 
 <br>
 
-![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel)
+![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![Lenis](https://img.shields.io/badge/Lenis-Smooth_Scroll-black?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </div>
 
 ---
 
-## 📸 Preview
-
-> Add your screenshots inside `/public/screenshots` then update image paths below.
+## 📸 Project Preview
 
 ### 🏠 Home Page
 ![Home Screenshot](public/screenshots/home.png)
@@ -31,51 +29,38 @@ Designed with premium UI/UX, smooth animations, and dynamic content management.
 
 ---
 
-## ✨ Key Features
+## ✨ Core Features
 
-### 🎨 UI / UX & Design
-- Premium Dark Theme with glassmorphism effects
-- Smooth weighted scrolling powered by Lenis
-- Scroll reveal animations with dynamic delays
-- Fully responsive (Desktop / Tablet / Mobile)
+### 🎨 Premium UI / UX
+- Dark modern aesthetic with glassmorphism elements  
+- Smooth, weighted scrolling powered by Lenis  
+- Scroll-reveal animations with dynamic delays  
+- Fully responsive across all devices  
 
----
+### 🛒 E-Commerce Engine
+- AJAX-powered dynamic cart (no page reloads)  
+- Infinite product scrolling  
+- Category filtering system  
+- Seamless SPA-like interactions  
 
-### 🛒 E-Commerce System
-- AJAX Dynamic Cart (Add / Remove / Update without reload)
-- Category filtering with horizontal mobile scrolling
-- Infinite scroll product loading
-- SPA-like smooth interaction experience
-
----
-
-### 🛡️ Admin Panel
-- Featured Hero Product manager (Homepage control)
-- Full Product CRUD system
-- Role-based authentication (Admin / User)
+### 🛡️ Admin Dashboard
+- Hero Product management  
+- Full Product CRUD system  
+- Role-based authentication (Admin / User)  
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer       | Technology |
-|------------|------------|
-| Backend    | Laravel 10, PHP 8 |
-| Frontend   | Blade, HTML5, ES6 |
-| Styling    | Tailwind CSS, FontAwesome |
-| Database   | MySQL |
-| Libraries  | Lenis, Axios |
+- **Backend:** Laravel 12, PHP 8.3  
+- **Frontend:** Blade, ES6  
+- **Styling:** Tailwind CSS  
+- **Database:** MySQL  
+- **Libraries:** Lenis, Axios  
 
 ---
 
-## 🚀 Installation
+## 📌 Project Vision
 
-```bash
-git clone https://github.com/your-username/mystore-future-vision.git
-cd mystore-future-vision
-
-composer install
-npm install
-
-cp .env.example .env
-php artisan key:generate
+Future Vision – MyStore is designed to demonstrate advanced Laravel architecture,  
+clean UI implementation, and modern frontend interaction patterns within a full-stack environment.
