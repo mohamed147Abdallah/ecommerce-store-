@@ -11,7 +11,7 @@ Focusing on premium UI/UX, smooth interactions, and dynamic content management.
 <p align="center">
 <a href="https://laravel.com"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Laravel-10.x-FF2D20%3Fstyle%3Dfor-the-badge%26logo%3Dlaravel" alt="Laravel"></a>
 <a href="https://tailwindcss.com"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC%3Fstyle%3Dfor-the-badge%26logo%3Dtailwind-css" alt="Tailwind CSS"></a>
-<a href="https://www.google.com/search?q=https://github.com/studio-freight/lenis"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Lenis-Smooth_Scroll-black%3Fstyle%3Dfor-the-badge" alt="Lenis"></a>
+<a href="https://github.com/darkroomengineering/lenis"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Lenis-Smooth_Scroll-black%3Fstyle%3Dfor-the-badge" alt="Lenis"></a>
 </p>
 
 📸 Screenshots
@@ -66,16 +66,19 @@ git clone [https://github.com/your-username/mystore-future-vision.git](https://g
 cd mystore-future-vision
 
 
+
 Install Dependencies
 
 composer install
 npm install
 
 
+
 Environment Setup
 
 cp .env.example .env
 php artisan key:generate
+
 
 
 Configure your .env file with your database credentials.
@@ -85,10 +88,12 @@ Database Migration & Seeding
 php artisan migrate --seed
 
 
+
 Run the Application
 
 npm run dev
 php artisan serve
+
 
 
 Visit http://localhost:8000 in your browser.
